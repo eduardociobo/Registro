@@ -10,6 +10,8 @@
         <Button x:Name="btnInserisci" Content="Inserisci" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Click="btnInserisci_Click"/>
         <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="280,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtCognome" HorizontalAlignment="Left" Margin="405,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnVisualizza" Content="Visualizza" HorizontalAlignment="Left" Margin="144,126,0,0" VerticalAlignment="Top" Click="btnVisualizza_Click"/>
+        <ListBox x:Name="lstVisualizza" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="465,136,153,72"/>
 
     </Grid>
 </Window>
